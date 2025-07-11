@@ -8,7 +8,7 @@ app = FastAPI()
 # Allow JS from frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://myportfolio-s5g7.onrender.com"],
+    allow_origins=["https://myportfolio-s5g7.onrender.com","https://codearenas.onrender.com/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
