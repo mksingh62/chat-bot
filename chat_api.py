@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from chat import get_response, get_response_portfolio, get_response_codearenas
+from chat import get_response_portfolio, get_response_codearenas
 
 app = FastAPI()
 
@@ -17,10 +17,6 @@ app.add_middleware(
 class ChatRequest(BaseModel):
     message: str
 
-@app.post("/chat")
-async def chat_endpoint(req: ChatRequest):
-    response = get_response(req.message)
-    return {"response": response}
 
 @app.post("/chat-portfolio")
 async def chat_portfolio_endpoint(req: ChatRequest):
