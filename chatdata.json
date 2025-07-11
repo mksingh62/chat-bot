@@ -1,0 +1,186 @@
+{
+  "intents": [
+    {
+      "category": "greeting",
+      "query": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?", "How are you?", "Kaise ho?"
+      ],
+      "responses": [
+        "Hi! How can I help you today?",
+        "Hello! Kuch specific puchhna hai?",
+        "Hey! Coding ya projects ke baare mein puchhna hai?",
+        "Namaste! Kaise madad kar sakta hoon?"
+      ]
+    },
+    {
+      "category": "platform_info",
+      "query": [
+        "What is this platform?", "Yeh site kis cheez ke liye hai?", "What can I do here?", "Platform ke features kya hain?"
+      ],
+      "responses": [
+        "This is CodeArena – a platform for coding challenges, project management, real-time code execution, and global competition.",
+        "Yahan aap coding problems solve kar sakte hain, apne projects bana sakte hain, leaderboard par compete kar sakte hain, aur XP & rewards kama sakte hain."
+      ]
+    },
+    {
+      "category": "coding_challenges",
+      "query": [
+        "How to solve coding problems?", "Problems section kya hai?", "Can I practice coding?", "How to get real-time feedback?", "How to submit solution?"
+      ],
+      "responses": [
+        "Go to the Problems section, select a problem, write your code, and click 'Run' or 'Submit' for instant feedback.",
+        "Problems page par jaakar aap coding challenges solve kar sakte hain aur apni skills improve kar sakte hain."
+      ]
+    },
+    {
+      "category": "code_execution",
+      "query": [
+        "How do I run code?", "Code kaise execute karun?", "Can I test my code here?", "Is code execution supported?", "Which languages are supported?"
+      ],
+      "responses": [
+        "You can write and run code in multiple languages like Python, JavaScript, C++, Java, etc. Just use the code editor and click 'Run'.",
+        "Code execution feature se aap apne solutions test kar sakte hain. Supported languages: Python, JS, C++, Java, aur bhi."
+      ]
+    },
+    {
+      "category": "leaderboard",
+      "query": [
+        "Show me the leaderboard", "Who is on top?", "Leaderboard dekhao", "Top coders kaun hain?", "How to earn XP?", "What are rewards?"
+      ],
+      "responses": [
+        "Leaderboard page par aap top coders dekh sakte hain jo sabse zyada points ya rank le chuke hain.",
+        "Earn XP by solving problems, uploading projects, and participating in challenges. Rewards unlock as you progress!"
+      ]
+    },
+    {
+      "category": "project_management",
+      "query": [
+        "How to create a project?", "Project kaise banayein?", "Can I edit my project?", "How to fork a project?", "What are predefined projects?", "How to upload/download project?"
+      ],
+      "responses": [
+        "Projects page par jaakar naya project create kar sakte hain, edit kar sakte hain, ya delete bhi kar sakte hain.",
+        "You can fork, upload, download, and even explore predefined projects for inspiration."
+      ]
+    },
+    {
+      "category": "project_editor",
+      "query": [
+        "What is Project Editor?", "How to use project editor?", "Can I create files and folders?", "How to run project code?", "How to change editor settings?"
+      ],
+      "responses": [
+        "Project Editor lets you create, edit, and organize files/folders, write code, and run it in real-time.",
+        "Editor settings (font size, theme, tab size) can be changed from the settings icon."
+      ]
+    },
+    {
+      "category": "file_management",
+      "query": [
+        "How to add a new file?", "File ya folder kaise banayein?", "How to upload files?", "Can I download my project?"
+      ],
+      "responses": [
+        "Project Editor me 'New File' ya 'New Folder' button se naya file/folder bana sakte hain.",
+        "Upload/download options are available in the editor toolbar."
+      ]
+    },
+    {
+      "category": "profile",
+      "query": [
+        "How to view my profile?", "Profile kaise dekhein?", "Can I update my profile?", "Profile section kya karta hai?", "What stats are shown?"
+      ],
+      "responses": [
+        "Profile page par aap apni details, solved problems, XP, aur projects dekh sakte hain.",
+        "You can update your profile info and see your coding stats."
+      ]
+    },
+    {
+      "category": "authentication",
+      "query": [
+        "How do I sign up?", "Login kaise karun?", "Signup process kya hai?", "How to reset password?", "Forgot password?"
+      ],
+      "responses": [
+        "Signup ya Login page par jaakar apna email aur password dal kar account bana sakte hain.",
+        "Agar password bhool gaye hain to 'Reset Password' option use karein."
+      ]
+    },
+    {
+      "category": "admin_panel",
+      "query": [
+        "What can admin do?", "Admin features kya hain?", "How to manage users?", "Can admin add problems?", "How to manage projects as admin?"
+      ],
+      "responses": [
+        "Admin panel se users, problems, projects, aur leaderboard manage kiya ja sakta hai.",
+        "Admin can add/edit/delete problems, import/export data, and manage predefined projects."
+      ]
+    },
+    {
+      "category": "navigation_help",
+      "query": [
+        "How to navigate the site?", "Where is the problems page?", "Leaderboard kahan hai?", "How to go to profile?"
+      ],
+      "responses": [
+        "Use the top navigation bar to access Problems, Projects, Leaderboard, and Profile sections.",
+        "Navigation bar se aap kisi bhi section me ja sakte hain."
+      ]
+    },
+    {
+      "category": "faq_help",
+      "query": [
+        "What if I face an error?", "Site slow hai, kya karun?", "How to contact support?", "Koi bug report karna hai?"
+      ],
+      "responses": [
+        "If you face any error, try refreshing the page or re-login. For persistent issues, contact support or admin.",
+        "Bug ya issue report karne ke liye contact form ya support email ka use karein."
+      ]
+    },
+    {
+      "category": "not_found",
+      "query": [
+        "Page not found", "404 error", "Koi page nahi mil raha", "Not able to find page"
+      ],
+      "responses": [
+        "Aap jis page ko dhoond rahe hain wo exist nahi karta. Kripya navigation menu ka use karein.",
+        "404 error: Page nahi mila. Home page par wapas jaayein."
+      ]
+    },
+    {
+      "category": "about_developer",
+      "query": [
+        "Who is the developer?", "Who made this site?", "Tell me about Mohit", "Who is Mahi?"
+      ],
+      "responses": [
+        "This platform is developed by Mohit (Mahi), a full-stack developer skilled in AI, MERN stack, and real-time coding platforms.",
+        "Mohit is the creator of CodeArena and other projects like TripMitra, NeuroScan AI, and Lyra assistant."
+      ]
+    },
+    {
+      "category": "developer_skills",
+      "query": [
+        "What skills does Mohit have?", "Which technologies does Mohit know?", "What is Mohit good at?"
+      ],
+      "responses": [
+        "Mohit is skilled in React.js, Node.js, Express.js, MongoDB, Python, Machine Learning, Deep Learning, and more.",
+        "He works on both frontend and backend, builds chatbots, and integrates AI models in web apps."
+      ]
+    },
+    {
+      "category": "project_examples",
+      "query": [
+        "Show me project examples", "Kuch sample projects dikhao", "What are predefined projects?"
+      ],
+      "responses": [
+        "You can explore predefined projects like E-commerce App, ML Classifier, Weather Dashboard, and Portfolio Website in the Projects section.",
+        "Predefined projects inspiration ke liye diye gaye hain, aap unhe fork ya edit bhi kar sakte hain."
+      ]
+    },
+    {
+      "category": "chatbot_help",
+      "query": [
+        "What can you do?", "How can you help me?", "Are you a chatbot?", "Can you answer questions?"
+      ],
+      "responses": [
+        "Main CodeArena ka chatbot hoon. Main aapko platform ke features, projects, coding help, aur navigation me guide karta hoon.",
+        "Haan, main aapke sawalon ke jawab de sakta hoon jo platform se related hain."
+      ]
+    }
+  ]
+}
